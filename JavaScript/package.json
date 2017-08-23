@@ -1,0 +1,29 @@
+{
+  "name": "javascript-gallery",
+  "version": "1.0.0",
+  "description": "Photo gallery with vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Photo",
+    "Gallery",
+    "JavaScript",
+    "Vanilla"
+  ],
+  "author": "RickyMB",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-wait": "0.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+extends templates/template.pug
+
+block main
+  h1 Photo-Gallery
+
+  .gallery-container#gallery-container
+    -var n = 1
+    while n <= 12
+      .gallery-item
+        img(src="img/photoGallery/car-" + n + "-thumb.jpg"
+        alt="Image " + n + " Description").gallery-img
+      -n++
+
+  script(src='js/photogallery.js')
+  script.
+    photoGallery(document.getElementById('gallery-container'));
